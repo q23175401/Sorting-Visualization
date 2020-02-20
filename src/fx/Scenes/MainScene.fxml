@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.canvas.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox fx:id="VB" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="451.0" prefWidth="631.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="fx.Scenes.MainSceneController">
+   <children>
+      <HBox minHeight="-Infinity" prefHeight="23.0" prefWidth="631.0">
+         <children>
+            <Button mnemonicParsing="false" onAction="#BoubleSort" text="BoubleSort" />
+            <Button mnemonicParsing="false" onAction="#InsertionSort" text="InsertionSort" />
+            <Button mnemonicParsing="false" onAction="#MergeSort" text="MergeSort" />
+            <Button mnemonicParsing="false" onAction="#QuickSort" text="QuickSort" />
+            <Button mnemonicParsing="false" onAction="#HeapSort" text="HeapSort" />
+            <Button mnemonicParsing="false" onAction="#RadixSort" text="RadixSort" />
+            <Button mnemonicParsing="false" onAction="#CountingSort" text="CountingSort" />
+            <Button mnemonicParsing="false" onAction="#SetRandom" text="Random" />
+         </children>
+      </HBox>
+      <AnchorPane fx:id="AP" minHeight="0.0" minWidth="0.0" prefHeight="405.0" prefWidth="610.0" style="-fx-background-color: LIGHTGREY;" VBox.vgrow="ALWAYS">
+         <children>
+            <Canvas fx:id="MainCanvas" height="405.0" width="610.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
