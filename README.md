@@ -1,7 +1,8 @@
 This is a sorting visualizer.
-There are several sorting algorithm to choose from.
-You can puase all the sorting procedure when sorting by clicking the button twice.
-And You can also switch to different algorithm by clicking different buttons.
+
+There are several sorting algorithms to choose from.
+You can puase all the sorting procedures when sorting by clicking the button twice.
+And You can also switch to different algorithms by clicking different buttons.
 
 	1. Bouble Sort
 	2. Insertion Sort
